@@ -146,7 +146,7 @@ export default function App() {
             <a href="#conteudo" className="hover:text-slate-900/80">Conteúdo</a>
             <a href="#depoimentos" className="hover:text-slate-900/80">Depoimentos</a>
             <a href="#bonus" className="hover:text-slate-900/80">Bônus</a>
-            <a href="#inscricao" className="inline-flex items-center gap-2 rounded-xl px-4 py-2 shadow-md btn-aquarela">Inscreva-se</a>
+            <a href="https://pay.kiwify.com.br/86tG4Pn" className="inline-flex items-center gap-2 rounded-xl px-4 py-2 shadow-md btn-aquarela">Inscreva-se</a>
           </div>
         </nav>
       </header>
@@ -159,11 +159,11 @@ export default function App() {
             <h1 className="mt-3 text-4xl sm:text-5xl font-serif leading-tight">
               Curso <span className="u-aquarela u-aquarela-lg u-aquarela-soft">Nail Art Aquarela</span></h1>
             <p className="mt-5 text-lg text-slate-700">
-              Domine a técnica mais delicada e valorizada do mercado com a especialista
-              <strong> Thayná Placedino</strong>. Aulas práticas, passo a passo e uma metodologia artística para você encantar clientes.
+              Transforme sua arte em uma <strong>fonte de renda extra </strong>e se torne uma referência no mundo das unhas.
+              Metodologia prática e simples, encante suas clientes com decorações exclusivas com a técnica Aquarela!
             </p>
             <div className="mt-8 flex flex-wrap items-center gap-3">
-              <a href="#inscricao" className="inline-flex items-center gap-2 rounded-2xl px-6 py-3 text-base font-medium shadow-lg hover:shadow-xl transition btn-aquarela">Quero me inscrever</a>
+              <a href="https://pay.kiwify.com.br/86tG4Pn" className="inline-flex items-center gap-2 rounded-2xl px-6 py-3 text-base font-medium shadow-lg hover:shadow-xl transition btn-aquarela">Quero me inscrever</a>
               <a href="#conteudo" className="inline-flex items-center gap-2 rounded-2xl px-6 py-3 text-base font-medium btn-aquarela-outline">Ver conteúdo</a>
             </div>
             <ul className="mt-6 text-sm text-slate-600 space-y-1">
@@ -187,11 +187,11 @@ export default function App() {
       <section id="video" className="py-10">
         <div className="mx-auto max-w-6xl px-4 sm:px-6">
           <h2 className="text-3xl font-serif">Assista: mensagem da professora</h2>
-          <p className="mt-2 text-slate-700 max-w-2xl">Conheça a <strong>Thayná Placedino</strong> e entenda como a técnica aquarela vai elevar o seu portfólio.</p>
+          <p className="mt-2 text-slate-700 max-w-2xl">Conheça a <strong>Thayná Placedino</strong> e entenda como a técnica aquarela vai elevar o seu nível profissional.</p>
           <div className="mt-6 relative w-full max-w-4xl mx-auto aspect-video rounded-3xl overflow-hidden shadow-2xl border border-white/70">
             <iframe
               className="w-full h-full"
-              src="https://www.youtube.com/embed/Xll94BIp234?rel=0&modestbranding=1&controls=1"
+              src="https://www.youtube.com/embed/XBb15IWww6s?rel=0&modestbranding=1&controls=1"
               title="Apresentação do curso - Thayná Placedino"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -208,28 +208,23 @@ export default function App() {
           <div className="bg-white/70 border-outline rounded-3xl p-6 shadow-sm border-outline">
             <h2 className="text-2xl font-serif">Sobre <span className="text-slate-900">Thayná Placedino</span></h2>
             <p className="mt-4 text-slate-700">
-              Nail Designer há 8 anos, Thayná é referência em arte aquarelada. Sua didática traduz técnica
-              em arte, levando iniciantes e profissionais ao próximo nível com projetos reais e feedback direto.
+              Nail Designer há 8 anos, Thayná é referência em unhas decoradas. Sua didática é simples,
+              do iniciante ao avançado levando profissionais para o próximo nível.
             </p>
             <ul className="mt-4 grid sm:grid-cols-2 gap-3 text-sm">
               <li className="rounded-xl border-outline bg-white p-3">🎨 Metodologia prática</li>
               <li className="rounded-xl border-outline bg-white p-3">💬 Suporte em grupo</li>
               <li className="rounded-xl border-outline bg-white p-3">📜 Certificado</li>
-              <li className="rounded-xl border-outline bg-white p-3">📸 Dicas de fotografia</li>
             </ul>
           </div>
 
           <div className="rounded-[2rem] h-full border-outline bg-white/70 p-6 shadow-sm border-outline">
             <h3 className="text-xl font-semibold">Para quem é</h3>
             <ul className="mt-3 space-y-2 text-slate-700">
-              <li>• Iniciantes em Nail Design</li>
-              <li>• Profissionais que querem incluir arte aquarela no portfólio</li>
-              <li>• Quem busca aumentar o valor percebido do serviço</li>
-            </ul>
-            <h3 className="mt-6 text-xl font-semibold">Pré-requisitos</h3>
-            <ul className="mt-3 space-y-2 text-slate-700">
-              <li>• Materiais básicos de Nail Art</li>
-              <li>• Vontade de praticar e criar</li>
+              <li>• Nail Designer iniciantes</li>
+              <li>• ⁠Profissionais querem oferecer um diferencial</li>
+              <li>• ⁠Para quem busca aumentar seu faturamento</li>
+              <li>• ⁠Para quem quer se Destacar no mercado das unhas</li>
             </ul>
           </div>
         </div>
@@ -241,12 +236,10 @@ export default function App() {
           <h2 className="text-3xl font-serif">O que você vai aprender</h2>
           <div className="mt-6 grid md:grid-cols-3 gap-6">
             {[
-              { t: "Fundamentos da aquarela", d: "Noções de água, pigmento e controle de transparências." },
-              { t: "Pinceladas e traços finos", d: "Flores, folhas, pétalas e contornos delicados." },
-              { t: "Composição e harmonias", d: "Paletas, equilíbrio visual e acabamento premium." },
-              { t: "Texturas e degradês", d: "Efeitos aquarelados e camadas suaves." },
-              { t: "Correções e durabilidade", d: "Como evitar borrões e selar o trabalho." },
-              { t: "Fotografia e portfolio", d: "Iluminação, enquadramento e apresentação." },
+              { t: "Fundamentos da aquarela", d: "Aprenda a dominar a água, o pigmento para criar efeitos leves, delicados e controlados em cada traço." },
+              { t: "Pinceladas e traços finos", d: "Desenvolva precisão e elegância em flores, folhas e contornos sutis, o segredo por trás de um acabamento artístico impecável." },
+              { t: "Composição e harmonias", d: "Descubra como criar combinações de cores equilibradas e composições visuais encantadoras que valorizam cada unha como uma verdadeira obra de arte." },
+              { t: "Correções e durabilidade", d: "Garanta resultados perfeitos e duradouros com técnicas de correção que mantêm sua arte intacta por muito mais tempo." },
             ].map((m, i) => (
               <div key={i} className="rounded-2xl bg-white/80 p-5 shadow-sm border-outline">
                 <h3 className="font-medium">{m.t}</h3>
@@ -316,7 +309,7 @@ export default function App() {
             </div>
             <div className="md:text-right">
               <p className="text-3xl font-semibold">R$ 19,90</p>
-              <a href="#checkout" className="mt-3 inline-flex items-center justify-center rounded-2xl px-6 py-3 text-base font-medium text white shadow-lg hover:shadow-xl transition w-full md:w-auto btn-aquarela">Quero me inscrever</a>
+              <a href="https://pay.kiwify.com.br/86tG4Pn" className="mt-3 inline-flex items-center justify-center rounded-2xl px-6 py-3 text-base font-medium text white shadow-lg hover:shadow-xl transition w-full md:w-auto btn-aquarela">Quero me inscrever</a>
               <p className="mt-2 text-xs text-slate-500">Garantia de 7 dias</p>
             </div>
           </div>
